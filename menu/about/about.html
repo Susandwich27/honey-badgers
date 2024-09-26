@@ -20,8 +20,13 @@
 <body>
   <body>
     <header class="header" id="myHeader">
+      <a href="../../index.html" class="back-button-mobile">
+        <button>
+          <img src="./pics/buttonbasemob.png" alt="Home" style="width: 50px; " border="0" />
+        </button>
+      </a>
       <nav>
-        <a href="../../index.html" style="margin-top: 20px;">
+        <a href="../../index.html" style="margin-top: 20px;" class="back-button">
           <button style="margin-right: 30px;">
             <img src="./pics/back.png" alt="Home" style="width: 120px; " border="0" />
           </button>
@@ -29,23 +34,23 @@
   
         <img src="./pics/logo4.png" alt="Logo" class="logo" >
 
-      <a href="https://magiceden.io/ordinals/marketplace/honey_badgers" target="_blank" style="margin-top: 12px;">    
+      <a href="https://magiceden.io/ordinals/marketplace/honey_badgers" target="_blank" style="margin-top: 12px;" class="mobile-button">    
         <button>
           <img src="./pics/buttonME.png" alt="Join the den!!" style="width: 150px; object-fit: contain" 
           border="0" />
         </button>
       </a>
 
-      <a href="https://magiceden.io/ordinals/marketplace/honey_badgers" target="_blank" style="margin-top: 12px;">  
+      <a href="https://honeybadgers.fun/" target="_blank" style="margin-top: 12px;" class="mobile-button">  
         <button>
           <img src="./pics/buttonfun.png" alt="Create a Honey Badger Offchain!" style="width: 150px;
           object-fit: contain" border="0" />
         </button>
       </a>
 
-      <a href="https://magiceden.io/ordinals/marketplace/honey_badgers" target="_blank" style="margin-top: 12px;">  
+      <a href="https://badgers.club/" target="_blank" style="margin-top: 12px;" class="mobile-button">  
         <button>
-          <img src="./pics/buttonsw.png" alt="Sweep!!" style="width: 150px; object-fit: contain"
+          <img src="./pics/buttonclub.png" alt="Sweep!!" style="width: 150px; object-fit: contain"
           border="0" />
         </button>
       </a>
@@ -70,8 +75,8 @@
     </mm>
   </div>
 
-  <div style="display: flex; margin-top:0px">
-    <div style="flex: 1;">
+  <div style="margin-top:0px" class="manifesto-box">
+    <div class="manifesto-text">
       <p> Honey Badgers are a 10k collection inscribed on the BTC Blockchain through Ordinals.
         It's an experiment to see if a native NFT community can emerge and thrive on the native BTC ecosystem.
         <br><br>
@@ -100,27 +105,29 @@
 
   <!-- Logo and Text Section -->
   <div>
-    <img src="./pics/logo_mascot_gold.png" alt="Logo 1" style="width: 150px; margin: 20px;">
+    <img src="./pics/logo_mascot_gold.png" alt="Logo 1" class="side-logo">
     <r>HONEY BADGERS ARE THE FIRST 10K OG COLLECTION ON BITCOIN.</r>
-    <img src="./pics/logo_mascot_gold.png" alt="Logo 1" style="width: 150px; margin: 20px;">
+    <img src="./pics/logo_mascot_gold.png" alt="Logo 1" class="side-logo">
   </div>
 
   <!-- Graph Section -->
   <div>
-    <img src="./pics/badgersdebes.png" alt="Big Picture" style="width: 800px;">
+    <img id="imglaptop" src="./pics/badgersdebes.png" alt="Big Picture" style="width: 800px;">
+    <img id="imgmobile" src="./pics/badgersdebes2.png" alt="Big Picture" style="width: 800px;">
+
   </div>
 
   <!-- Logo and Text Section -->
   <div>
-    <img src="./pics/logo.png" alt="Logo 2" style="width: 150px; margin: 20px;">
+    <img src="./pics/logo.png" alt="Logo 2" class="side-logo">
     <r>NOT CONVINCED YET?? WATCH THIS AND YOU WILL!!!</r>
-    <img src="./pics/logo.png" alt="Logo 2" style="width: 150px; margin: 20px;">
+    <img src="./pics/logo.png" alt="Logo 2"  class="side-logo">
   </div>
 
   <!-- Video Section -->
   <div>
     <iframe width="860" height="484" src="https://www.youtube.com/embed/4r7wHMg5Yjg?si=Ie8wbKXwGuqmrvUM"
-      title="YouTube video player of badgers" frameborder="80" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+      title="YouTube video player of honey badgers' documentary" frameborder="80" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
         gyroscope; picture-in-picture; web-share" allowfullscreen>
     </iframe>
   </div>
@@ -171,13 +178,17 @@
 
   <footer>
     <nav>
-      <button onclick="window.open('https://twitter.com/HoneyBadgersBtc','_blank')">
-        <img src="./pics/xlogo.png" alt="Twitter/X" style="width: 120px;" border="0" />
-      </button>
-
-      <button onclick="window.open('https://discord.gg/HoneyBadgers','_blank')">
-        <img src="./pics/discord-mark-white.png" alt="Discord" style="width: 120px;" border="0" />
-      </button>
+      <a href="https://x.com/HoneyBadgersBtc" target="_blank">  
+        <button>
+          <img src="./pics/xlogo.png" alt="Twitter/X" style="width: 120px;" border="0" />
+        </button>
+      </a>
+      
+      <a href="https://discord.gg/HoneyBadgers" target="_blank" style="margin-top: 20px;">  
+        <button onclick="window.open('https://discord.gg/HoneyBadgers','_blank')">
+          <img src="./pics/discord-mark-white.png" alt="Discord" style="width: 120px;" border="0" />
+        </button>
+      </a>
 
     </nav>
   </footer>
